@@ -25,7 +25,7 @@ from langchain_community.chat_models import ChatOpenAI
 st.header("MiaoBot")
 
 from PIL import Image
-logo = Image.open("203686119-un-gatto-che-lavora-al-computer-con-indosso-una-tuta-e-gli-auricolari-ai-generativo.jpg")
+logo = Image.open ("203686119-un-gatto-che-lavora-al-computer-con-indosso-una-tuta-e-gli-auricolari-ai-generativo.jpg")
 st.image(logo, width=300)
 # st.image(logo, use_column_width=True)
 
